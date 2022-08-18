@@ -47,9 +47,9 @@ fun main() {
     println(list.flatten())
 
     val letras = listOf(
-        listOf("A","B"),
-        listOf("C","D"),
-        listOf("E","F"),
+        listOf("A", "B"),
+        listOf("C", "D"),
+        listOf("E", "F"),
     )
     //Utilizando o .flatten para retornarmos uma lista só apartir de todas as lista que recebemos nela
     //Ex: ao utilizarmos list que contem uma de list<String>
