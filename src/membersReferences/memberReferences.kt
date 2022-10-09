@@ -41,7 +41,7 @@ fun main() {
     //Replicando a função important, porem sem declarar uma extension function
     println(people.any(::important2))
 
-    val names = listOf("Dog", "Cat")
+    val names = listOf("upcastingEdownCasting.Dog", "upcastingEdownCasting.Cat")
     //Função passando somente a referencia da classe
     println(names.mapIndexed(::Animal))
     //Mesma função porem utilizando lambda, mais código a ser feito

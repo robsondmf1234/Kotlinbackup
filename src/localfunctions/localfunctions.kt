@@ -15,8 +15,8 @@ fun main() {
     list.forEach {
         //list.forEach  customFunctions@{
         if (it == 3) {
-            //Return vai retornar para o metodo main, não vai alcançar "println("Completed")"
-            //ao deixar o cursor em cima do return ,podemos ver que metodo main vai ser destacada pela IDE
+            //Return vai retornar para o metodo upcastingEdownCasting.main, não vai alcançar "println("Completed")"
+            //ao deixar o cursor em cima do return ,podemos ver que metodo upcastingEdownCasting.main vai ser destacada pela IDE
             //return
 
             //Ao colocarmos essa anotations @forEach, vamos retornar o fluxo para a iteração e assim

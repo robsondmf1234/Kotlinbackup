@@ -40,7 +40,7 @@ fun main() {
     println()
 
     //Imprimindo o value de algum elemento que não existe em nosso Map , tomaremos um null, como resposta
-    println(animals["Dog"])
+    println(animals["upcastingEdownCasting.Dog"])
 
     println()
 
@@ -78,9 +78,9 @@ fun main() {
     }
 
     //Imprimindo um valor default ,quando não tivermos algum elemento com a key passado
-    //no nosso (EX: key="Dog", valor do value que será retornado como default será "Black")
+    //no nosso (EX: key="upcastingEdownCasting.Dog", valor do value que será retornado como default será "Black")
     println(animals.getOrDefault(key = "Monkey", defaultValue = "Black"))
-    println(animals.getOrDefault(key = "Dog", defaultValue = "Black"))
+    println(animals.getOrDefault(key = "upcastingEdownCasting.Dog", defaultValue = "Black"))
 
     println()
 

@@ -12,7 +12,7 @@ abstract class Animal() {
     protected var energy: Int = 0
 
     //Quando não inserirmos a palavra-chave open na frente do método, esse método não será visto como obrigatório nas
-    // classes que implementam a classe Animal
+    // classes que implementam a classe upcastingEdownCasting.Animal
     fun speak() = "Wof"
     open fun speak2(): String = "Wof"
     abstract fun eat()

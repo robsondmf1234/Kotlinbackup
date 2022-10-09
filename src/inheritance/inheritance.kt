@@ -21,14 +21,14 @@ fun main() {
 
 open class Animal(val name: String) {
 
-    //Adicionando o protected ,essa variavel não poderá ser acessada fora da classe pain(Animal)
-    // e das classes filhas (Dog e Lion)
+    //Adicionando o protected ,essa variavel não poderá ser acessada fora da classe pain(upcastingEdownCasting.Animal)
+    // e das classes filhas (upcastingEdownCasting.Dog e Lion)
     //protected var energy = 0
     protected var energy = 0
     var color = "Black"
 
     init {
-        println("Animal class initializing...")
+        println("upcastingEdownCasting.Animal class initializing...")
     }
 
     open fun printEnergy() {
@@ -48,7 +48,7 @@ open class Animal(val name: String) {
 
 class Dog(dogName: String) : Animal(name = dogName) {
     init {
-        println("Dog class initializing...")
+        println("upcastingEdownCasting.Dog class initializing...")
     }
     override fun eat() {
         energy += 5
